@@ -1,0 +1,252 @@
+body {
+  box-sizing: border-box;
+  padding: 0px 5rem 4rem;
+}
+
+p,
+h1,
+span {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+}
+
+/* div {
+  border: solid black 1px;
+} */
+
+header {
+  width: 100%;
+  height: 10vh;
+  border-bottom: solid 1px #a6a7a9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.logo {
+  display: flex;
+  height: 100%;
+  width: 50%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.logo > span {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.nav > li {
+  list-style-type: none;
+  color: silver;
+}
+
+.icons {
+  display: flex;
+  width: 10%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icons > img {
+  width: 50px;
+}
+
+main {
+  display: flex;
+  width: 90%;
+  height: 70vh;
+  margin: auto;
+}
+
+main > * {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  box-sizing: border-box;
+}
+
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.add {
+  width: 30%;
+  background-color: #f7f8fd;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add > span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.add > :nth-child(1) {
+  color: #ec6a06;
+}
+.add > :nth-child(3) {
+  color: #ec6a06;
+}
+
+.cart {
+  width: 55%;
+  padding: 10.5px;
+  border-radius: 10px;
+  background-color: #ec6a06;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0px 24px 24px 3px rgba(236, 106, 6, 0.3);
+}
+
+.cart:hover {
+  background-color: #d36b1a;
+}
+.cart > * {
+  font-size: 12px;
+}
+
+.cart > :nth-child(2) {
+  margin-left: 5px;
+}
+
+.item {
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  background-image: url(img/sneak.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 77%;
+  width: 100%;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.span {
+  color: #ec6a06;
+  opacity: 0.7;
+}
+
+.tag {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag > h3 {
+  margin: 0;
+}
+
+.tag > p {
+  margin: 0;
+  font-size: 14px;
+  background-color: #fbebdf;
+  padding: 3px;
+  color: #ec6a06;
+  border-radius: 5px;
+}
+
+.real {
+  text-decoration: line-through;
+  margin-top: 0px;
+  font-size: 10px;
+  color: silver;
+  opacity: 0.7;
+  margin-bottom: 2rem;
+}
+
+.sub {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sub > * {
+  width: 20%;
+  height: 80%;
+  color: black;
+  border-radius: 12px;
+}
+
+.sub > :nth-child(1) {
+  cursor: pointer;
+  background-position: center;
+  background-size: contain;
+
+  background-blend-mode: overlay;
+  background-image: url(img/Sneak.jpg);
+  opacity: 0.4;
+  border: #ec6a06 solid 3px;
+}
+
+.sub > :nth-child(2) {
+  background-image: url(img/first.jpg);
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.sub > :nth-child(3) {
+  background-image: url(img/sneakerss.jpg);
+  background-position: center;
+  cursor: pointer;
+  background-size: contain;
+}
+
+.sub > :nth-child(4) {
+  background-image: url(img/first.jpg);
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.content > P {
+  line-height: 25px;
+  color: #a6a7a9;
+  font-size: 14px;
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+}
